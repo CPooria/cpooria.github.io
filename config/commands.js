@@ -1,5 +1,5 @@
 const whoisRoot = "Root Ventures is a San Francisco-based deep tech seed fund. As engineers ourselves, we specialize in leading initial funding for founders tackling new technical opportunities. Our initial investments typically range from $2-3M. With a selective few new deals a year and 2/3 of our funds in reserve, we are committed to being a long-term partner. Try %whois% and one of avidan, kane, chrissy, lee, ben, zodi, or laelah to learn more about our team.";
-const timeUnit = 1000; // useful for development, set to 10 to run faster, set to 1000 for production
+const timeUnit = 10; // useful for development, set to 10 to run faster, set to 1000 for production
 let killed = false;
 
 const commands = {
